@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #33504b;
+    color: white;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #99ccff;
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.5;
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2a3d45;
+    color: white;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.education, .experience, .skills, .languages, .certificates, .interests {
+    background-color: #e0e7e9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #2a3d45;
+    margin-bottom: 10px;
+}
+
+.edu-item, .experience-item, .skill-item {
+    padding: 5px 0;
+    font-size: 1em;
+}
+
+.skill-item {
+    background-color: #b3d4fc;
+    color: #2a3d45;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
